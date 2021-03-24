@@ -1,0 +1,126 @@
+$firstColor: #e0a1d3;
+$secondColor :#ac8da6;
+$background :#3f2c3b;
+$textColor : #412358;
+
+*{
+  font-family: arial;
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  border:none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+body{
+  height: 100vh;
+  background-color: $background;
+  position: relative;
+}
+
+.newGameBox{
+  background-color: $firstColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  .newGame{
+    color: $textColor;
+    background-color: $secondColor;
+    padding: 12px;
+    border-radius: 10px;
+  }
+}
+
+.main{
+  height: 90%;
+  background-color: $background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commandBox{
+  background-color: $firstColor;
+  display :flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  height: 15%;
+  position:absolute;
+  top:50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  left: 50%
+}
+
+.command{
+  width: 25%;
+  height: 50%;
+  background-color: $secondColor;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.field{
+  background-color: $firstColor;
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.top, .bottom{
+  color:white;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top{
+  background-color: rgb(216, 151, 151);
+  border-radius: 10px 10px 0 0;
+}
+
+.bottom{
+  background-color: rgb(190, 186, 186);
+  border-radius: 0 0 10px 10px;
+}
+
+.playerBox{
+  background-color: $firstColor;
+  width:60%;
+  height: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding:10px;
+}
+
+.player, .global{
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.currentBox{
+  background-color: $secondColor;
+  border-radius: 10px;
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.currentScor{
+  position: relative;
+  bottom: 10%;
+}

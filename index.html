@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Dice Game</title>
+</head>
+<body>
+  <div class="newGameBox" >
+    <button class="newGame" id="newGame">NEW GAME</button>
+  </div>
+
+
+  <div class="main">
+    <div class="field">
+
+      <div class="commandBox">
+        <button class="command" id="roll">ROLL</button>
+        <div class="command" id="diceResult">dice resulte</div>
+        <button class="command" id="hold">HOLD</button>
+      </div>
+
+      <div class="top">
+        <div class="playerBox" id="box1">
+          <div class="player">PLAYER 1</div>
+          <div class="global" id="global1">0</div>
+          <div class="currentBox">
+            <div class="currentTitle">CURRENT</div>
+            <div class="currentScor" id="current1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="playerBox" id="box2">
+          <div class="player">PLAYER 2</div>
+          <div class="global" id="global2">0</div>
+          <div class="currentBox">
+            <div class="currentTitle">CURRENT</div>
+            <div class="currentScor" id="current2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+* {
+  font-family: arial;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+body {
+  height: 100vh;
+  background-color: #3f2c3b;
+  position: relative;
+}
+
+.newGameBox {
+  background-color: #e0a1d3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10%;
+}
+
+.newGameBox .newGame {
+  color: #412358;
+  background-color: #ac8da6;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.main {
+  height: 90%;
+  background-color: #3f2c3b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.commandBox {
+  background-color: #e0a1d3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  height: 15%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 90%;
+  left: 50%;
+}
+
+.command {
+  width: 25%;
+  height: 50%;
+  background-color: #ac8da6;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.field {
+  background-color: #e0a1d3;
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.top, .bottom {
+  color: white;
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top {
+  background-color: #d89797;
+  border-radius: 10px 10px 0 0;
+}
+
+.bottom {
+  background-color: #bebaba;
+  border-radius: 0 0 10px 10px;
+}
+
+.playerBox {
+  background-color: #e0a1d3;
+  width: 60%;
+  height: 50%;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.player, .global {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+
+.currentBox {
+  background-color: #ac8da6;
+  border-radius: 10px;
+  width: 50%;
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.currentScor {
+  position: relative;
+  bottom: 10%;
+}
+/*# sourceMappingURL=style.css.map */
